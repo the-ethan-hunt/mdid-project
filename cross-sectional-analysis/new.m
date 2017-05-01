@@ -1,4 +1,4 @@
-%We will compare corss-sectional areas of various shapes       
+%We will compare cross-sectional areas of various shapes       
         h= 5*t;
         Ac= (pi*(h^2))/4;
         Ixxc= (pi*(h^4))/64;
