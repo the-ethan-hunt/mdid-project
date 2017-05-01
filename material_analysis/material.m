@@ -1,6 +1,5 @@
 function [ load ] = material( b,h,t,E,a )
-%MATERIAL Summary of this function goes here
-%   Detailed explanation goes here
+%MATERIAL Enter the input material constants to know the load
 A= (2*b*(h-(3*t)))+(3*t*t);
 Ix=(1/12)*((b*(h^3))-(((3*t)^3)*(b-t)));
 k=sqrt(Ix/A);
